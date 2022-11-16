@@ -13,15 +13,25 @@ function numberOne (a,b){
 
 // Задача2. Написать функцию, которая принимает аргументом число(больше 0)
 // и возвращает массив чисел от 0 до этого числа
-numberTwo()
-let c = 8
-function numberTwo(c){
-    let result = []
-    for( i = 0; i < c ; i++){
-        result.push(i)
+// numberTwo()
+// let c = 8
+// function numberTwo(c){
+//     let result = []
+//     for( i = 0; i < c ; i++){
+//         result.push(i)
+//     }
+//     console.log(result)
+// }
+
+
+    let c = +prompt ("Введите число")
+    let num = []
+    
+    function numberTwo(c, num ){
+      for( i = 0 ; i < c; i++) {
+      num.push (i) 
     }
-    console.log(result)
-}
-
-
+   
+    }
+    console.log (numberTwo())
 
